@@ -1,8 +1,9 @@
 #include<iostream>
 using namespace std;
 
-int main(){
-    
+int main()
+{
+
     // declare
     int array[15];
 
