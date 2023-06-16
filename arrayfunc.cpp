@@ -20,4 +20,13 @@ int n = 15;
 //calling the function
 printArray(third, 15);
 
+int fifth[10]= {1};
+n = 10;
+
+printArray(fifth, 10);
+
+//printing of size
+int fifthSize=sizeof(fifth)/sizeof(int);
+cout<<"size of fifth is:"<<fifthSize<<endl;
+
 }
