@@ -29,7 +29,13 @@ printArray(fifth, 10);
 int fifthSize=sizeof(fifth)/sizeof(int);
 cout<<"size of fifth is:"<<fifthSize<<endl;
 
+//character
 char ch[4]= {'a', 'b', 'c', 'f'};
 cout<<ch[3]<<endl;
+
+cout<<"printing the array of characters"<<endl;
+for(int i=0; i<4; i++){
+    cout<<ch[i]<<" ";
+}
 
 }
