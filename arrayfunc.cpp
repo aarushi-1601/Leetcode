@@ -29,4 +29,7 @@ printArray(fifth, 10);
 int fifthSize=sizeof(fifth)/sizeof(int);
 cout<<"size of fifth is:"<<fifthSize<<endl;
 
+char ch[4]= {'a', 'b', 'c', 'f'};
+cout<<ch[3]<<endl;
+
 }
