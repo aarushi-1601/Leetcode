@@ -5,6 +5,9 @@ void update(int arr[], int n) {
 
     cout<<"inside the function" <<endl;
 
+    //updating the array's first element
+    arr[0]=120;
+
     for(int i=0; i<3; i++) {
         cout<< arr[i] <<" " ;
     } cout<<endl;
