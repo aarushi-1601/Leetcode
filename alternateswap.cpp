@@ -26,5 +26,10 @@ int main(){
     alternateswap(even,8);
     printArray(even, 8);
 
+    cout << endl;
+
+    alternateswap(odd,5);
+    printArray(odd, 5);
+    
     return 0;
 }
