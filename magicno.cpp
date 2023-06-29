@@ -18,7 +18,7 @@ int MagicNumber(int n) {
 }
 
 int main() {
-   int number = 02;
+   int number = 10091;
    if(MagicNumber(number)){
       cout << number << " is magic number";
    } 
