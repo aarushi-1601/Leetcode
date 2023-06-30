@@ -54,9 +54,9 @@ int main(){
     int result = isPalin(&one);
  
     if(result == 1)
-            cout<<"The value is True\n";
+            cout<<"The value is True, is a palindrome\n";
     else
-        cout<<"The value is False\n";
+        cout<<"The value is False, not a palindrome\n";
  
 return 0;
 }
