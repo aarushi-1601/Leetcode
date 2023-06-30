@@ -1,5 +1,5 @@
 // MAGIC NUMBER - sum of all the digits till end if 1 then it is a magic number. 
-//Example- 1234-->1+2=3+4=10,  again 1+0=1,  therfore, it is a magic number.
+//Example- 1234-->1+2=3+4=10, again 1+0=1, therfore, it is a magic number.
 
 #include <iostream>
 using namespace std;
