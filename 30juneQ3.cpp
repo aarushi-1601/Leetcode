@@ -32,7 +32,7 @@ int main()
     string str1 = "amazon";
     string str2 = "azonam";
  
-    isrotated(str1, str2) ? cout << "Yes"
-                          : cout << "No";
+    isrotated(str1, str2) ? cout << "True"
+                          : cout << "False";
     return 0;
 }
