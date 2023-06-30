@@ -41,8 +41,8 @@ int main(){
     Node one = Node(31);
     Node two = Node(32);
     Node three = Node(33);
-    Node four = Node(34);
-    Node five = Node(35);
+    Node four = Node(32);
+    Node five = Node(31);
  
     five.ptr = NULL;
     one.ptr = &two;
