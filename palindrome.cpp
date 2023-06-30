@@ -3,7 +3,7 @@
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
-class Solution {
+class palindrome {
    public:
    int longestPalindromeSubseq(string s) {
       string x = s;
@@ -26,6 +26,6 @@ class Solution {
    }
 };
 main(){
-   Solution ob;
+   palindrome ob;
    cout << (ob.longestPalindromeSubseq("ABCDefghhgfeDmomDe"));
 }
