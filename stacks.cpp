@@ -49,15 +49,15 @@ class Stacks
 
 int main()
 {
-    Stack stack(10);
-    stack.push(5);
-    stack.push(10);
-    stack.push(15);
+    Stacks stacks(10);
+    stacks.push(5);
+    stacks.push(10);
+    stacks.push(15);
     int flag=1;
     while(flag)
     {
-        if(!stack.isEmpty())
-            cout<<"We have popped "<< stack.pop()<<" from stack"<<endl;
+        if(!stacks.isEmpty())
+            cout<<"We have popped "<< stacks.pop()<<" from stack"<<endl;
         else
             cout<<"Can't Pop stack must be empty\n";
             
