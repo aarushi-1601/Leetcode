@@ -3,7 +3,7 @@
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
-class Solution {
+class palindrome {
 public:
    int longestPalindrome(string s) {
       unordered_map<char, int> mp;
@@ -22,7 +22,7 @@ public:
    }
 };
 main(){
-   Solution ob;
-   cout << (ob.longestPalindrome("abccccdd"));
+   palindrome ob;
+   cout << (ob.longestPalindrome("ABCDefghhgfeDmomDe"));
 }
 
