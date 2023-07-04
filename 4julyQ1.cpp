@@ -31,10 +31,9 @@ void printKclosest(int arr[], int n, int x,int k)
     }
 }
  
-
 int main()
 {
-    int arr[] = { 5,2,4,3,1,7,8 };
+    int arr[] = {1,2,3,4,5,6};
     int X = 3, K = 4;
     int N = sizeof(arr) / sizeof(arr[0]);
      

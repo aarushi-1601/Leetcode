@@ -18,7 +18,6 @@ void printLeaders(int arr[], int size){
     }
 }
 
-
 int main()
 {
     int arr[] = {10,3,2,21,1,7,3};
