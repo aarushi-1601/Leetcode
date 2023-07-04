@@ -27,10 +27,7 @@ void sortOne(int arr[], int n){
             left++;
             right--;
         }
-
-        
      }
-
 }
 
 int main(){
