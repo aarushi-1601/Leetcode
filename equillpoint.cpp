@@ -1,1 +1,0 @@
-//Equillibrium point 
