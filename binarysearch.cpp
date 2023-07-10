@@ -30,8 +30,12 @@ int main(){
     int even[6]= {2,4,6,8,12,18};
     int odd[5]= {3,8,11,14,16};
 
-    int index = binarysearch(even, 6, 12);
+    int evenindex = binarysearch(even, 6, 12);
 
-    cout <<"Index of 12 is " << index << endl;
+    cout <<"Index of 12 is " << evenindex << endl;
+
+    int oddindex = binarysearch(odd, 5, 12);
+
+    cout <<"Index of 12 is " << oddindex << endl;
 
 }
