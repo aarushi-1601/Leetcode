@@ -31,5 +31,7 @@ int main(){
 
     int even[5] = {1,2,3,3,5};
 
+    cout<< "First occurence of 3 is at Index: "<< firstOcc(even, 5, 3)<< endl;
+    
     return 0;
 }
