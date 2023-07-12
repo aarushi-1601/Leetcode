@@ -1,7 +1,8 @@
 #include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-int dosort(int arr[], int n){
+void dosort(int arr[], int n){
 
     for (int i=0; i<n-1; i++){
         int minindex=i;
@@ -11,16 +12,27 @@ int dosort(int arr[], int n){
                 minindex = j;
             }
         }
+        //if (minindex !=i)
         swap (arr[minindex], arr[i]);
+    }
+}
+
+void printArray(int arr[], int size)
+{
+    int i;
+    for (i = 0; i < size; i++) {
+        cout << arr[i] << " ";
+        cout << endl;
     }
 }
 
 int main(){
 
-    int arr[4] = {12,90,45,2};
+    int arr[] = {12,90,45,2};
+    int n = sizeof(arr) / sizeof(arr[0]);
 
-    int sort = dosort(arr, 4);
-
-    cout << "The sorted array is: " << sort<< endl;
-
-    }
+    dosort(arr, n);
+    cout << "Sorted array: \n";
+    printArray(arr, n);
+    return 0;
+}
