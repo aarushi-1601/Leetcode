@@ -19,6 +19,8 @@ int main(){
 
     int arr[4] = {12,90,45,2};
 
-    cout << "the sorted array is: " << dosort<< endl;
+    int sort = dosort(arr, 4);
+
+    cout << "The sorted array is: " << sort<< endl;
 
     }
