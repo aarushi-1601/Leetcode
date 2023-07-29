@@ -27,6 +27,7 @@ int main(){
             cin >> arr[i][j];
         }
     }
+
  cout<<"Printing the array"<<endl;
     for(int i=0; i<5; i++){
         for (int j=0; j<5; j++){
@@ -34,7 +35,8 @@ int main(){
         }
         cout<<endl;
     }
+
     int ans=largestRowsum(arr,5,5);
-    cout<<"Maxrow is at index"<<ans<<endl;
+    cout<<"Max sum of row is at index"<<ans<<endl;
    return 0;
 }
