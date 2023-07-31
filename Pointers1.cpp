@@ -13,5 +13,11 @@ int main(){
 
     cout<< num<< endl;
 
+    int*p = &num;
+    cout<<"Before value is: "<<num<<endl;
+
+    (*p)++;
+    cout<<"After value is: "<<num<<endl;
+
     return 0;
 }
