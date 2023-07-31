@@ -9,7 +9,11 @@ int main(){
 
     //Address operator- &
 
-    cout<<"The address of num is"<< &num<< endl;
+    cout<<"The address of num is: " << &num<< endl;
+
+    int *ptr = &num;
+    cout<<"Address is: " <<ptr <<endl;
+    cout<<"Value is: " <<*ptr << endl;
 
     return 0;
 }
