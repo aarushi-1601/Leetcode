@@ -21,6 +21,8 @@ int main(){
     cout<<"Address is: " <<p2 << endl;
     cout<<"Value is: " << *p2<< endl;
 
+    //Size 
+
     cout<<"Size of integer is: " <<sizeof(num)<< endl;
     cout<<"Size of pointer is: " <<sizeof(ptr)<<endl;
     cout<<"Size of pointer is: " <<sizeof(p2)<<endl;
