@@ -7,6 +7,14 @@ int main(){
      cout<<"Address of first memory block is " <<arr<<endl;
      cout<<"Address of first memory block is " <<&arr[0]<<endl;
 
-    cout<<""<<*arr<<endl;
+    cout<<"a"<<*arr<<endl;
+    cout<<"b"<<*(arr+1)<<endl;
+    cout<<"c"<<*(arr+2)<<endl;
+    cout<<"d"<<*(arr+2)+1<<endl;
+
+
+    int i=2;
+    cout<<i[arr]<<endl;
+
     return 0;
 }
