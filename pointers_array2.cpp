@@ -17,15 +17,26 @@ int main(){
 
     //**difference with the & operator//**
 
-    int a[20]={1,2,3,5};
-    cout<<"& operator array "<<&a[0]<<endl;
-    cout<<&a<<endl;
-    cout<<a<<endl;
+    // int a[20]={1,2,3,5};
+    // cout<<"& operator array "<<&a[0]<<endl;
+    // cout<<&a<<endl;
+    // cout<<a<<endl;
 
-    int*p=&a[0];
-    cout<<p<<endl;
-    cout<<*p<<endl;
-    cout<<"& operator pointer "<<&p<<endl;
+    // int*p=&a[0];
+    // cout<<p<<endl;
+    // cout<<*p<<endl;
+    // cout<<"& operator pointer "<<&p<<endl;
+
+    //**Symbol difference//**
+
+    int arr[10];
+
+    //ERROR
+    //arr=arr+1;
+
+    int *ptr=&arr[0];
+    ptr=ptr+1;
+    cout<< ptr << endl; 
 
     return 0;
 }
