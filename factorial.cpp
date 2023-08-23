@@ -7,10 +7,13 @@ int factorial(int n){
 if(n==0)
     return 1;
 
-int smallprob = factorial(n-1);
-int bigprob = n*smallprob;
+//int smallprob = factorial(n-1);
+//int bigprob = n*smallprob;
 
-return bigprob;
+//return bigprob;
+//OR
+
+return n * factorial(n-1);
 
 }
 
