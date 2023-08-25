@@ -8,10 +8,8 @@ int power(int n){
     return 1;
 
     //recursive relation
-    int smallprob=power(n-1);
-    int bigprob=2*smallprob;
 
-    return bigprob;
+    return 2*power(n-1);
 
 }
 
